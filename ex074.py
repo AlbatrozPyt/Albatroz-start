@@ -1,0 +1,10 @@
+from random import randint
+n1 = randint(0,10)
+n2 = randint(0,10)
+n3 = randint(0,10)
+n4 = randint(0,10)
+n5 = randint(0,10)
+n = (n1, n2, n3, n4, n5)
+print(f'\033[34mOs números gerados foram:\033[31m {n}\033[m')
+print(f'\033[34mO menor número gerado foi o \033[31m{min(n)}\033[m')
+print(f'\033[34mO maior número gerado foi o \033[31m{max(n)}\033[m')
